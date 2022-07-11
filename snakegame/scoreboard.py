@@ -3,7 +3,7 @@ from turtle import Turtle
 
 ALIGNMENT = "center"
 FONT = ('Arial', 15, 'normal')
-with open("data.txt", "r") as data:
+with open("high_score.txt", "r") as data:
     hs = int(data.read())
 
 class Score(Turtle):
